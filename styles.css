@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.text{
+    color: rgb(27, 26, 26) ;
+}
+.card{
+    position: absolute;
+    top: 10%;
+}
+.source-button{
+    background-color: #38606A;
+    color: rgb(250, 250, 250);
+    border-radius: 5px;
+    text-decoration: none;
+}
+.container{
+    color: rgb(121, 160, 160);
+    background-color: bisque;
+    font-family: 'Roboto', sans-serif;
+}
+.show-button{
+    width: 10%;
+    background-color: tomato;
+    color: white;
+    border-radius: 2px;
+    height: 10%;
+}
+.search-bar{
+    position: absolute;
+    width: 80%;
+    border-radius: 4px;
+    height: 5%;
+}
