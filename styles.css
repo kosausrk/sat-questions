@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 .text{
-    color: rgb(27, 26, 26) ;
+    color: rgb(27, 26, 26);
 }
 .card{
     display: flex;
@@ -43,7 +43,4 @@
     padding-top: 2%;
     font-size: 12px;
     font-family: 'Roboto', sans-serif;
-}
-.navbar navbar-expand-lg navbar-light bg-light{
-    
 }
