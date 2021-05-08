@@ -54,7 +54,10 @@ const data = [
       "practice-test": 1
     }
    ]
+//To DO
+//Implement NAV bar 
 //implement Quiz Feature 
+//Make everything look somewhat decent
 
 for (let x = 0; x<data.length;x++){ //length is 5 so 5 iterations //could have just used for (const element of data)
     let text = document.createElement("p") //creates a new paragraph element
@@ -104,4 +107,5 @@ for (let x = 0; x<data.length;x++){ //length is 5 so 5 iterations //could have j
     
     card.appendChild(container)  //appending the child div to the parent to make it orginized inside of one div
 }
+
 
