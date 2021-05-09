@@ -17,9 +17,10 @@
     width: 20%;
 }
 .container{
-    color: rgb(121, 160, 160);
-    background-color: bisque;
+    color: #59514E;
+    background-color: #A69586;
     font-family: 'Roboto', sans-serif;
+    margin-bottom: 2%;
 }
 .show-button{
     position: relative;
@@ -30,12 +31,7 @@
     left: 1%;
 }
 
-.search-bar{
-    position: absolute;
-    width: 80%;
-    border-radius: 4px;
-    height: 5%;
-}
+
 .navbar-brand{
     padding-left: 10px;
 }
@@ -43,4 +39,20 @@
     padding-top: 2%;
     font-size: 12px;
     font-family: 'Roboto', sans-serif;
+}
+#nav-thing{
+    padding-left: 5%;
+}
+.nav-item{
+    font-size: 18px;
+}
+#navbarNav{
+    justify-content: flex-end;
+    padding-right: 1%;
+}
+#main-nav-thing{
+    background-color: #A69586;
+}
+.searchBar{
+    bottom: 10%;
 }
