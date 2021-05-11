@@ -70,6 +70,7 @@ for (let x = 0; x<data.length;x++){ //length is 5 so 5 iterations //could have j
     
     explaination.innerHTML = "Press answer button to get a explaination"
     answer.innerHTML = "Press answer button to reveal the answer"
+    answer.classList.add("answer")
     show_button.innerHTML = "Show Answer"
     show_button.classList.add("show-button")
     
@@ -108,7 +109,7 @@ for (let x = 0; x<data.length;x++){ //length is 5 so 5 iterations //could have j
     card.appendChild(container)  //appending the child div to the parent to make it orginized inside of one div
 }
 //doesn't work and too lazy to fix :)
-const searchBar = document.querySelector(".searchBar")
+/*const searchBar = document.querySelector(".searchBar")
 searchBar.addEventListener("keyup", ()=>{
   searchText = searchBar.textContent.toLowerCase()
   const sat_container = container.getElementByTagName("p")
@@ -122,4 +123,4 @@ searchBar.addEventListener("keyup", ()=>{
     }
   })
 })
-
+*/
