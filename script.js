@@ -108,19 +108,3 @@ for (let x = 0; x<data.length;x++){ //length is 5 so 5 iterations //could have j
     
     card.appendChild(container)  //appending the child div to the parent to make it orginized inside of one div
 }
-//doesn't work and too lazy to fix :)
-/*const searchBar = document.querySelector(".searchBar")
-searchBar.addEventListener("keyup", ()=>{
-  searchText = searchBar.textContent.toLowerCase()
-  const sat_container = container.getElementByTagName("p")
-  Array.from(sat_container).forEach(function(sat_container){
-    const sat_title = sat_container.firstElement.textContent
-    if (sat_title.toLowerCase().indexof(searchText) != -1){
-      sat_container.style.display = "block"
-    }
-    else{
-      sat_container.style.display = "none"
-    }
-  })
-})
-*/
