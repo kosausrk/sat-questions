@@ -1,42 +1,53 @@
 /* styles.css */
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+/* Color Palette from your image: */
+/* 413C58 (Dark Purple) */
+/* A3C4BC (Light Blue-Green) */
+/* BFD7B5 (Light Green) */
+/* E7EFC5 (Pale Yellow) */
+/* F2E7C9 (Light Beige) */
+
+/* English Violet: #563D7C */
+
 .text{
-    color: rgb(27, 26, 26);
+    color: #413C58; /* Dark Purple for text */
 }
 .card{
     display: flex;
     position: absolute;
     padding-top: 5%;
-
 }
 .source-button{
-    background-color: #38302F;
-    color: rgb(250, 250, 250);
+    background-color: #413C58; /* Dark Purple for buttons */
+    color: #F2E7C9; /* Light Beige for button text */
     border-radius: 2.5px;
     text-decoration: none;
     width: 20%;
+    padding: 3.75px;
 }
 .source-button:hover{
-    color: #8E867F;
+    color: #A3C4BC; /* Light Blue-Green on hover */
 }
 .container{
-    color: #59514E;
-    background-color: #A69586;
+    color: #413C58; /* Dark Purple for container text */
+    background-color: #A3C4BC; /* Pale Yellow for container background */
     font-family: 'Roboto', sans-serif;
     margin-bottom: 2%;
+    padding: 10px;
 }
 .show-button{
     position: relative;
     font-size: 100%;
     text-decoration: none;
-    background-color: #38302F;
-    color: white;
+    background-color: #413C58; /* Dark Purple for button */
+    color: #F2E7C9; /* Light Beige for button text */
     border-radius: 2.5px;
     left: 1%;
+    padding: 3.75px;
 }
 .show-button:hover{
-    color: #8E867F;
+    color: #A3C4BC; /* Light Blue-Green on hover */
 }
 
 .navbar-brand{
@@ -58,39 +69,41 @@
     padding-right: 1%;
 }
 #main-nav-thing{
-    background-color: #A69586;
+    background-color: #563D7C; /* English Violet for navbar */
 }
 #footer-thing{
-    background-color: #69625C;
+    background-color: #BFD7B5; /* Light Green for footer */
 }
 .footer-link{
     text-decoration: none;
-    color: #A69586;
+    color: #413C58; /* Dark Purple for footer links */
 }
 .footer-link:hover{
-    color: #aa917b;
+    color: #A3C4BC; /* Light Blue-Green on hover */
 }
 
-/* ... (your existing CSS) */
+/* QUIZ SECTIONS */
 
+ 
 .quiz-section {
     display: flex;
-    flex-direction: column; /* Stack items vertically on smaller screens */
-    align-items: center; /* Center items horizontally */
-    margin: 20px auto; /* Center the quiz section on the page */
+    flex-direction: column; 
+    align-items: center; 
+    margin: 20px auto; 
     padding: 20px;
-    background-color: #f0f0f0;
-    max-width: 800px; /* Optional: limit the width on larger screens */
-    color: black;
+    background-color: #F2E7C9; /* Light Beige for quiz section */
+    max-width: 800px; 
+    color: #413C58; /* Dark Purple for text in quiz section */
 }
 
 #question-container,
 #navigation-buttons,
 #score-container {
-    width: 100%; /* Make them take full width of quiz-section */
+    width: 100%; 
     margin-bottom: 20px;
 }
 
+ 
 
 #navigation-buttons button {
     display: inline-block;
@@ -101,18 +114,18 @@
     height: 45px;
     line-height: 45px;
     border-radius: 7px;
-    background-color: #0070f3;
-    color: white;
+    background-color: #413C58; /* Dark Purple for navigation buttons */
+    color: #F2E7C9; /* Light Beige for button text */
     font-weight: 400;
     font-size: 16px;
-    box-shadow: 0 4px 14px 0 rgb(0 118 255 / 39%);
+    box-shadow: 0 4px 14px 0 rgba(65, 60, 88, 0.39); /* Shadow with Dark Purple */
     transition: background 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
-    margin: 0 10px; /* Space between buttons */
+    margin: 0 10px; 
 }
 
 #navigation-buttons button:hover {
-    background: rgba(0, 118, 255, 0.9);
-    box-shadow: 0 6px 20px rgb(0 118 255 / 23%);
+    background: rgba(65, 60, 88, 0.9); /* Dark Purple with slight transparency on hover */
+    box-shadow: 0 6px 20px rgba(65, 60, 88, 0.23); /* Shadow with Dark Purple on hover */
 }
 
 /*radio buttons edit */ 
@@ -127,11 +140,11 @@
     align-items: center;
     gap: 15px;
     padding: 0px 20px;
-    max-width: 90%; /* Adjust as needed */
+    max-width: 90%; 
     cursor: pointer;
     height: 50px;
     position: relative;
-    word-break: break-word; /* Allow long words to break */
+    word-break: break-word; 
 }
 .radio-input * {
     box-sizing: border-box;
@@ -149,7 +162,7 @@
     height: 50px;
     position: relative;
     word-break: break-word;
-    margin-bottom: 10px; /* Add margin below each label */
+    margin-bottom: 10px; 
 }
 
 .radio-input label::before {
@@ -167,20 +180,21 @@
 }
 .radio-input label:hover::before {
     transition: all 0.2s ease;
-    background-color: #2a2e3c;
+    background-color: #A3C4BC; /* Light Blue-Green on hover */
 }
 
 .radio-input .label:has(input:checked)::before {
-    background-color: #2d3750;
-    border-color: #435dd8;
+    background-color: black; /* Changed to black for visibility */
+    border-color: #413C58; /* Dark Purple border when checked */
     height: 50px;
 }
+
 .radio-input .label .text {
-    color: black;
+    color: #413C58; /* Dark Purple for text */
 }
 
 .radio-input .label input[type="radio"] {
-    background-color: #202030;
+    background-color: #337ac0; /* Pale Yellow for radio button background */
     appearance: none;
     width: 17px;
     height: 17px;
@@ -190,7 +204,7 @@
     align-items: center;
 }
 .radio-input .label input[type="radio"]:checked {
-    background-color: #435dd8;
+    background-color: #413C58; /* Dark Purple when checked */
     -webkit-animation: puls 0.7s forwards;
     animation: pulse 0.7s forwards;
 }
@@ -201,7 +215,7 @@
     height: 6px;
     border-radius: 50%;
     transition: all 0.1s cubic-bezier(0.165, 0.84, 0.44, 1);
-    background-color: #fff;
+    background-color: #F2E7C9; /* Light Beige for inner circle */
     transform: scale(0);
 }
 
